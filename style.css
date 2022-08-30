@@ -1,0 +1,105 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    width: 100%;
+    margin: auto;
+    height: 100vh;
+    background-color: rgb(29, 56, 146);
+}
+h1{
+color: beige;
+text-align: center;
+padding-top: 20px;
+margin-bottom: 20px;
+}
+.digital{
+    width: 45%;
+    margin: auto;
+    height: 200px;
+    background-color: beige;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+   justify-content: center;
+
+}
+#convert{
+color: #fff;
+background-color: blue;
+border: none;
+padding: 8px 3px;
+}
+
+#yard{
+    color: #fff;
+    background-color: rgb(8, 8, 61);
+    border: none;
+    padding: 8px 10px;  
+}
+
+#Centimeter{
+    color: #fff;
+    background-color: rgb(8, 8, 61);
+    border: none;
+    padding: 8px 10px;   
+}
+
+#inches{
+    color: #fff;
+    background-color: rgb(8, 8, 61);
+    border: none;
+    padding: 8px 10px;  
+}
+
+#Miles{
+    color: #fff;
+    background-color: rgb(8, 8, 61);
+    border: none;
+    padding: 8px 10px; 
+}
+
+.button{
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+#inputText,
+#output{
+    background-color: rgb(214, 214, 247);
+    border: none;
+    padding: 8px 3px
+    
+}
+
+
+/* media query */
+@media screen and (max-width: 390px) {
+  
+    
+    .digital{
+        width:70%;
+        margin: auto;
+        height: 350px;
+    }
+    
+    p{
+        text-align: center;
+    }
+
+    .button{
+        display: flex;
+        flex-direction: column;
+    }
+}
