@@ -8,8 +8,11 @@
     width: 100%;
     margin: auto;
     height: 100vh;
-    background-color: rgb(29, 56, 146);
+    background-image: url(./23324.jpg);
+    background-position: center;
+    background-size: cover;
 }
+
 h1{
 color: beige;
 text-align: center;
@@ -19,8 +22,9 @@ margin-bottom: 20px;
 .digital{
     width: 45%;
     margin: auto;
-    height: 200px;
-    background-color: beige;
+    height: 250px;
+    background-color: rgb(197, 197, 178, 0.7);
+    border-radius: 15px;
     padding: 20px;
     display: flex;
     flex-direction: column;
@@ -33,35 +37,23 @@ color: #fff;
 background-color: blue;
 border: none;
 padding: 8px 3px;
+border-radius: 8px;
 }
 
-#yard{
+.bttn{
     color: #fff;
     background-color: rgb(8, 8, 61);
     border: none;
     padding: 8px 10px;  
+    border-radius: 30px;
+    border-bottom: solid 3px blue;
 }
 
-#Centimeter{
-    color: #fff;
-    background-color: rgb(8, 8, 61);
-    border: none;
-    padding: 8px 10px;   
+.bttn:hover{
+    background-color: #fff;
+    color: rgb(8, 8, 61);
 }
 
-#inches{
-    color: #fff;
-    background-color: rgb(8, 8, 61);
-    border: none;
-    padding: 8px 10px;  
-}
-
-#Miles{
-    color: #fff;
-    background-color: rgb(8, 8, 61);
-    border: none;
-    padding: 8px 10px; 
-}
 
 .button{
     display: flex;
@@ -85,13 +77,13 @@ form{
 
 
 /* media query */
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 450px) {
   
     
     .digital{
         width:70%;
         margin: auto;
-        height: 350px;
+        height: 400px;
     }
     
     p{
